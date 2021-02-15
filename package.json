@@ -1,0 +1,29 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "team-profile-generator",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suziestephen/teamprofile.github.io"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suziestephen/teamprofile.github.io/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
