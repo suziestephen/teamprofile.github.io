@@ -5,6 +5,7 @@ Generates a Team Profile for a software company
 
 
   # Footage
+  ![Demonstration Video]()
  
 
   # Table of Contents
