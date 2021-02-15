@@ -27,7 +27,8 @@ Generates a Team Profile for a software company
   # Badges
   [![Website shields.io](https://img.shields.io/badge/success-success-pink)](http://shields.io/)
   # Tests
-  Test files using .jest
+  Test files using .jest <br>
+  Run using npm test in command line
   # License
   None
   # Contributions
