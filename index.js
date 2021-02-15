@@ -219,7 +219,7 @@ class App {
                     .prompt([
                         {
                             type: "list",
-                            message: "Would you like to add more Team Members",
+                            message: "Would you like to save this person",
                             choices: [
                                 "Yes",
                                 "No"
