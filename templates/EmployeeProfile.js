@@ -20,14 +20,14 @@ class EmployeeProfile {
             `;
 
         if (this.title.toLowerCase() === 'manager') {
-            this.html += `<img src="./assets/manager.jpg" alt="Manager Photo" class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
+            this.html += `<img src="assets/manager.jpg" alt="Manager Photo" class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
             alt="Employee Image" style="width: 50%;">`;
         } else if (this.title.toLowerCase() === 'engineer') {
-            this.html += `<img src="./assets/engineer.jpg" alt="Engineer Photo" class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
+            this.html += `<img src="assets/engineer.jpg" alt="Engineer Photo" class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
             alt="Employee Image" style="width: 50%;">`;
         } else {
             this.title.toLowerCase() === 'intern' 
-            this.html += `<img src="./assets/intern.jpg" alt="Intern Photo" class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
+            this.html += `<img src="assets/intern.jpg" alt="Intern Photo" class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
             alt="Employee Image" style="width: 50%;">`;
                 
         }
