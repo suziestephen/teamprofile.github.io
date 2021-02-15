@@ -5,7 +5,7 @@ Generates a Team Profile for a software company
 
 
   # Footage
-  ![Demonstration Video]()
+  ![Demonstration Video](https://github.com/suziestephen/teamprofile.github.io/blob/main/assets/demonstration.mp4)
  
 
   # Table of Contents
