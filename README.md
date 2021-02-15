@@ -5,7 +5,7 @@ Generates a Team Profile for a software company
 
 
   # Footage
-  ![Click here for Demonstration Video](https://drive.google.com/file/d/1Q60bfFKPiI9XiHvhfvnFsV4AJokbtfiJ/view?usp=sharing)
+ https://drive.google.com/file/d/1Q60bfFKPiI9XiHvhfvnFsV4AJokbtfiJ/view?usp=sharing
  
 
   # Table of Contents
