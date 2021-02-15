@@ -20,14 +20,15 @@ class EmployeeProfile {
             `;
 
         if (this.title.toLowerCase() === 'manager') {
-            this.html += `<img src="./assets/manager.jpg class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
-                    alt="Employee Image" style="width: 50%;">`;
-        if (this.title.toLowerCase() === 'engineer') {
-            this.html += `<img src="./assets/engineer.jpg class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
-                    alt="Employee Image" style="width: 50%;">`;
-        if  (this.title.toLowerCase() === 'intern') {
-            this.html += `<img src="./assets/intern.jpg class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
-                alt="Employee Image" style="width: 50%;">`;       
+            this.html += `<img src="" alt="Manager Photo" class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
+            alt="Employee Image" style="width: 50%;">`;
+        } if (this.title.toLowerCase() === 'engineer') {
+            this.html += `<img src="" alt="Engineer Photo" class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
+            alt="Employee Image" style="width: 50%;">`;
+        } if (this.title.toLowerCase() === 'intern') {
+            this.html += `<img src="" alt="Intern Photo" class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
+            alt="Employee Image" style="width: 50%;">`;
+                
         }
 
         this.html +=

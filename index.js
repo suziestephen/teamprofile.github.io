@@ -40,10 +40,15 @@ class App {
                         name: "email"
                     },
                     {
-                        type: "input",
-                        message: "Title: ",
-                        name: "title"
-                    }
+                        type: 'list',
+                        message: 'What is your Title?',
+                        choices: [
+                            "Engineer",
+                            "Intern",
+                            "Manager"
+                        ],
+                        name:'title'
+                        },
                 ]);
 
         switch (employeeDetails.title.toLowerCase()) {
@@ -213,13 +218,17 @@ class App {
                 await inquirer
                     .prompt([
                         {
-                            type: "input",
-                            message: "Type 'yes' if you wish to save",
-                            name: "save"
+                            type: "list",
+                            message: "Would you like to add more Team Members",
+                            choices: [
+                                "Yes",
+                                "No"
+                            ],
+                            name: 'addTeam'
                         }
                     ]);
 
-        } while (!input.save);
+        } while (!input.addTeam);
 
         const generateHTML = this.createGenerateHTML();
 
