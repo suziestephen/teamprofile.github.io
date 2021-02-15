@@ -22,10 +22,10 @@ class EmployeeProfile {
         if (this.title.toLowerCase() === 'manager') {
             this.html += `<img src="" alt="Manager Photo" class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
             alt="Employee Image" style="width: 50%;">`;
-        } if (this.title.toLowerCase() === 'engineer') {
+        } else if (this.title.toLowerCase() === 'engineer') {
             this.html += `<img src="" alt="Engineer Photo" class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
             alt="Employee Image" style="width: 50%;">`;
-        } if (this.title.toLowerCase() === 'intern') {
+        } else (this.title.toLowerCase() === 'intern') {
             this.html += `<img src="" alt="Intern Photo" class="card-img-top mt-5 img-fluid rounded mx-auto d-block"
             alt="Employee Image" style="width: 50%;">`;
                 
